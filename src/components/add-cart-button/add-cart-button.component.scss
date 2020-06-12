@@ -1,0 +1,21 @@
+.btn-add-to-cart {
+  background-color: #E41A15;
+  border: 1px solid #E41A15;
+  border-radius: 10px;
+  color: #ffffff;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: white;
+    color: #E41A15;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: #cccccc;
+    border: none;
+    color: #ffffff;
+  }
+}
