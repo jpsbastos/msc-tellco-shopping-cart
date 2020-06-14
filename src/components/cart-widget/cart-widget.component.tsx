@@ -34,13 +34,14 @@ export class CartWidgetComponent extends React.Component {
         });
     });
 
-    addEventListener('empty-cart', (e: CustomEvent) => {
+    addEventListener("empty-cart", (e: CustomEvent) => {
       this.setState({ total: 0 });
     });
   }
 
   public render(): JSX.Element {
     return (
+      // eslint-disable-next-line jsx-a11y/no-static-element-interactions
       <div className="cart-widget" onClick={() => this.widgetClicked()}>
         <FontAwesomeIcon icon={["fas", "shopping-cart"]} />
         <span>{this.state.total}</span>

@@ -45,7 +45,7 @@ export class ShoppingCartPageComponent extends React.Component {
           <img
             className="entry-image"
             src={e.product.imagePath}
-            alt={"image"}
+            alt={e.product.imagePath}
           />
           <span className="entry-name">
             {e.product.brandName} {e.product.modelNumber}

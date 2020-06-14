@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import singleSpaReact from "single-spa-react";
 import { AddCartButtonComponent } from "./components/add-cart-button/add-cart-button.component";
-import {ShoppingCartPageComponent} from "./pages/shopping-cart.page";
+import { ShoppingCartPageComponent } from "./pages/shopping-cart.page";
 
 const lifecycles = singleSpaReact({
   React,
