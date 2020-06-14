@@ -1,9 +1,8 @@
 import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { apiService } from "../../shared/api.service";
-import { History } from "history";
 
-export class CartWidgetComponent extends React.Component<{ history?: History }> {
+export class CartWidgetComponent extends React.Component {
   constructor(props) {
     super(props);
   }
