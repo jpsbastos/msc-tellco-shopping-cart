@@ -28,7 +28,8 @@ class ApiService {
      * @param shoppingCartId
      */
     public emptyShoppingCart(shoppingCartId: string):  Promise<{}> {
-        return axios.delete(`${BASE_PATH}/${ENDPOINT}/shopping-cart/${shoppingCartId}`, { headers: { 'x-access-token' : ''} });
+        console.log(shoppingCartId)
+        return axios.delete(`${BASE_PATH}/${ENDPOINT}/${shoppingCartId}`, { headers: { 'x-access-token' : ''} });
     }
 }
 
