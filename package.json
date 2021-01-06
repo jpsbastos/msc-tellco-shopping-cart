@@ -67,7 +67,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/systemjs": "^6.1.0",
     "@types/webpack-env": "^1.15.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dayjs": "^1.8.28",
     "history": "^5.0.0",
     "import-glob-loader": "^1.1.0",
